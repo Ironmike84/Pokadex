@@ -2,3 +2,9 @@ body{
     background-color: black;
     color: bisque;
 }
+
+.pbutton{
+background-color: black;
+border: 0px;
+color: Bisque
+}
