@@ -19,3 +19,20 @@ let pokemonList = [{
     Type: ["Fire"]
 }
 ]
+
+
+function myList(Pokemons){
+    for (let i = 0; i < Pokemons.length; i++){
+     console.log(`${Pokemons[i].Name}, ${Pokemons[i].Height}`)
+     document.write(`Name: ${Pokemons[i].Name}" Height: " ${Pokemons[i].Height}` )
+     
+}
+}
+
+
+console.log(myList(pokemonList))
+
+Object.keys(pokemonList).forEach(function(property){
+console.log(pokemonList[property])
+})
+
