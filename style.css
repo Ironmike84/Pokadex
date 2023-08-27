@@ -3,8 +3,11 @@ body{
     color: bisque;
 }
 
-.pbutton{
+.button-class{
+border: 1px solid red;
 background-color: black;
-border: 0px;
+padding: 5px;
+margin: 5px;
+width: 100px;
 color: Bisque
 }
