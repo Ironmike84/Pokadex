@@ -6,22 +6,27 @@
     <title>Pokadex</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
-<body>
+<div class="searchBar">
+    <input id="searchQuery" placeholder="Input Name"></input>
+    <button id="searchButton">Search</button>
+</div>
+</nav>
+<br>
 Pokemon List
 <div class="container"></div>
 <ul class="PokemonList">
 <div id="simpleModal" class="modal">
-    
-    
     <div class="modal-content">
-        <div class="modal-header">Header
-            <button class="close-button">X</button>
+        <button class="close-button">X</button>
+        <div class="modal-header">
+            <div class="pokemon-name"></div>
+        </div> 
+            <div class="pokemon-image"></div>
+            <div class="pokemon-height"></div>
+            <div class="pokemon-weight"></div>
+            <div class="pokemon-types"></div>
         </div>    
-            <p>My Modal</p>
-        </div>    
-
 </div>
-
 </ul>
 </body>
 <script src="fetch.umd.js"></script>
