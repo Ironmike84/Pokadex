@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokadex</title>
+    
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <div class="searchBar">
@@ -13,8 +14,14 @@
 </nav>
 <br>
 Pokemon List
-<div class="container"></div>
-<ul class="PokemonList">
+<div class="PokemonBar">
+    <ul class="PokemonList">
+    </ul>
+</div>
+
+<div class="container">
+
+
 <div id="simpleModal" class="modal">
     <div class="modal-content">
         <button class="close-button">X</button>
@@ -27,7 +34,9 @@ Pokemon List
             <div class="pokemon-types"></div>
         </div>    
 </div>
-</ul>
+</div>
+
+
 </body>
 <script src="fetch.umd.js"></script>
 <script src="polyfill.js"></script>
